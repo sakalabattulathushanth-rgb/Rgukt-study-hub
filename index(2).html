@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RGUKT Study Hub</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #4facfe, #00f2fe);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      color: white;
+      font-size: 2.5rem;
+      margin-top: 60px;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #f0f0f0;
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+    }
+    .btn-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 260px;
+    }
+    .btn {
+      background-color: white;
+      color: #333;
+      padding: 15px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: 0.3s;
+      text-decoration: none;
+      box-shadow: 0px 5px 8px rgba(0,0,0,0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px; /* space between icon and text */
+    }
+    .btn:hover {
+      background-color: #333;
+      color: white;
+      transform: scale(1.05);
+    }
+    footer {
+      margin-top: auto;
+      background: #333;
+      padding: 18px;
+      width: 100%;
+      color: #f0f0f0;
+      font-size: 1rem;
+    }
+    .whatsapp-btn {
+      background-color: #25D366;
+      color: white;
+    }
+    .whatsapp-btn:hover {
+      background-color: #1ebe5d;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to RGUKT Study Hub</h1>
+  <p>📘 This site is specially designed for <b>PUC2 SEM1 Students</b></p>
+
+  <div class="btn-container">
+    <a href="syllabus.html" class="btn"><i class="fa-solid fa-book"></i> Syllabus</a>
+    <a href="content.html" class="btn"><i class="fa-solid fa-folder-open"></i> Content</a>
+    <a href="previous-papers.html" class="btn"><i class="fa-solid fa-file-lines"></i> Previous Papers</a>
+    <!-- WhatsApp Button (replace number with yours) -->
+    <a href="https://wa.me/91XXXXXXXXXX" target="_blank" class="btn whatsapp-btn">
+      <i class="fa-brands fa-whatsapp"></i> Contact on WhatsApp
+    </a>
+  </div>
+
+  <footer>
+    Developed by <b>Thushanth</b> · 2024 Batch
+  </footer>
+
+</body>
+</html>
